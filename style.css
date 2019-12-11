@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   height: auto;
   width: auto;
@@ -9,7 +9,7 @@ body{
   line-height: 10%;
 }
 
-#top{
+#top {
   display: flex;
   height: auto;
   width: 100%;
@@ -18,13 +18,13 @@ body{
   align-self: flex-start;
 }
 
-.top{
+#top_left, #top_right {
   height: auto;
   width: 40%;
   margin: -5% 0px 0px 0px;
 }
 
-h1{
+h1 {
   display: flex;
   font-family: 'Cinzel Decorative', cursive;
   margin-bottom: 3%;
@@ -33,13 +33,13 @@ h1{
   text-align: center;
 }
 
-p, #userinput{
+p, #userinput {
   font-family: 'Handlee', cursive;
   font-size: 1em;
   text-align: center;
 }
 
-button{
+button {
   font-family: 'Cinzel Decorative', cursive;
   font-size: 1em;
   color: white;
@@ -48,23 +48,23 @@ button{
   background: linear-gradient(#FB6789, #C1284A 70%, #FB6789);
 }
 
-button:hover{
+button:hover {
   background: linear-gradient(#E1E59C, #78AC50 70%, #E1E59C);
 }
 
-#left{
+#left {
   height: auto;
   width: 20%;
   margin: 0% 0px 0px -3%;
 }
 
-#right{
+#right {
   height: auto;
   width: 20%;
   margin: 0% -3% 0px 0px;
 }
 
-#bottom{
+#bottom {
   display: flex;
   height: auto;
   width: 110%;
@@ -84,9 +84,9 @@ button:hover{
   font-size: 0.6rem;
 }
 
- #list{
-   font-size: 1.2em;
- }
+#list {
+  font-size: 1.2em;
+}
 
 .checked {
   text-decoration: line-through;
@@ -95,7 +95,7 @@ button:hover{
 }
 
 @media only screen and (max-width: 600px) {
-  h1{
+  h1 {
     display: flex;
     font-family: 'Cinzel Decorative', cursive;
     margin-bottom: 3%;
@@ -105,25 +105,25 @@ button:hover{
     flex-direction: column;
   }
 
-  .top{
+  #top_left, #top_right {
     height: auto;
     width: 55%;
     margin: -5% 0px 0px 0px;
   }
 
-  #left{
+  #left {
     height: auto;
     width: 30%;
     margin: 0% 0px 0px -1%;
   }
 
-  #right{
+  #right {
     height: auto;
     width: 30%;
     margin: 0% -1% 0px 0px;
   }
 
-  #bottom{
+  #bottom {
     display: flex;
     height: auto;
     width: 100%;

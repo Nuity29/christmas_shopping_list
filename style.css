@@ -6,6 +6,7 @@ body{
   align-self: stretch;
   font-family: 'Handlee', cursive;
   line-height: 10%;
+  flex-wrap: wrap;
 }
 
 #top{

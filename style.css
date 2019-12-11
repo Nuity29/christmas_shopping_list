@@ -1,0 +1,99 @@
+body{
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+  align-self: stretch;
+  font-family: 'Handlee', cursive;
+  line-height: 10%;
+}
+
+#top{
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.top{
+  height: auto;
+  width: 40%;
+  margin: -5% 0px 0px 0px;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+  margin-bottom: 3%;
+  color: #C1284A;
+}
+
+p, #userinput{
+  font-family: 'Handlee', cursive;
+  font-size: 1em;
+  text-align: center;
+}
+
+button{
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1em;
+  color: white;
+  line-height: 150%;
+  border-radius: 10%;
+  background: linear-gradient(#FB6789, #C1284A 70%, #FB6789);
+}
+
+button:hover{
+  background: linear-gradient(#E1E59C, #78AC50 70%, #E1E59C);
+}
+
+#left{
+  height: auto;
+  width: 20%;
+  margin: 0% 0px 0px -3%;
+}
+
+#right{
+  height: auto;
+  width: 20%;
+  margin: 0% -3% 0px 0px;
+}
+
+#bottom{
+  display: flex;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  bottom: -3%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#remove {
+  margin-left: 0.5rem;
+  border-radius: 100%;
+  border: 1px;
+  color: white;
+  background-color: #C1284A;
+  font-size: 0.6rem;
+}
+
+ #list{
+   font-size: 1.2em;
+ }
+
+.checked {
+  text-decoration: line-through;
+  text-decoration-color: #C1284A;
+  text-decoration-style: solid;
+}

@@ -25,10 +25,12 @@ body{
 }
 
 h1{
+  display: flex;
   font-family: 'Cinzel Decorative', cursive;
   margin-bottom: 3%;
   color: #C1284A;
   line-height: 110%;
+  text-align: center;
 }
 
 p, #userinput{

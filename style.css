@@ -67,7 +67,7 @@ button:hover{
 #bottom{
   display: flex;
   height: auto;
-  width: 100%;
+  width: 110%;
   position: absolute;
   bottom: -3%;
   flex-direction: row;
@@ -91,17 +91,46 @@ button:hover{
 .checked {
   text-decoration: line-through;
   text-decoration-color: #C1284A;
-  /* text-decoration-style: solid; */
+  text-decoration-style: solid;
 }
-/*
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
+
+@media only screen and (max-width: 600px) {
+  h1{
+    display: flex;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 3%;
+    color: #C1284A;
+    line-height: 110%;
+    text-align: center;
+    flex-direction: column;
   }
-} */
+
+  .top{
+    height: auto;
+    width: 55%;
+    margin: -5% 0px 0px 0px;
+  }
+
+  #left{
+    height: auto;
+    width: 30%;
+    margin: 0% 0px 0px -1%;
+  }
+
+  #right{
+    height: auto;
+    width: 30%;
+    margin: 0% -1% 0px 0px;
+  }
+
+  #bottom{
+    display: flex;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: -1%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}

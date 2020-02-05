@@ -17,6 +17,7 @@ body{
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
 }
 
 #top_left, #top_right {
@@ -62,7 +63,9 @@ p, #userInput {
     display: flex;
     height: auto;
     width: 100%;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 #bottom_left, #bottom_right {

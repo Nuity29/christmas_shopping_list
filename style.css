@@ -1,4 +1,5 @@
 body{
+    display: -webkit-flex;
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -10,6 +11,7 @@ body{
 }
 
 #top, #bottom {
+    display: -webkit-flex;
     display: flex;
     height: auto;
     width: 100%;
@@ -21,10 +23,10 @@ body{
     height: auto;
     width: 40%;
     margin: -5% 0 0 0;
+    background: white;
 }
 
 h1 {
-    display: flex;
     font-family: 'Cinzel Decorative', cursive;
     margin: 2em 0 1em 0;
     color: #C1284A;
@@ -56,6 +58,10 @@ p, #userInput {
 }
 
 #bottom{
+    display: -webkit-flex;
+    display: flex;
+    height: auto;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -63,6 +69,7 @@ p, #userInput {
     height: auto;
     width: 20%;
     margin: 0;
+    background: white;
 }
 
 #list {

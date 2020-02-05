@@ -1,5 +1,5 @@
 var button = document.getElementById("enter");
-var input = document.getElementById("userinput");
+var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
 var checkedItem = document.getElementById("list");
 
@@ -22,7 +22,7 @@ function addListAfterClick() {
   }
 }
 
-function addListAfterKeyPress(event) { //this function needs a parameter to talk to event.keyCode below
+function addListAfterKeypress(event) {
   if (inputLength() > 0 && event.keyCode === 13) {
     createListElement();
   }
@@ -49,4 +49,4 @@ checkedItem.addEventListener("click", markItemDone);
 
 button.addEventListener("click", addListAfterClick);
 
-input.addEventListener("keypress", addListAfterKeyPress);
+input.addEventListener("keypress", addListAfterKeypress);

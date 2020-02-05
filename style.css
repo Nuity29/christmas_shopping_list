@@ -75,6 +75,11 @@ p, #userInput {
     background: white;
 }
 
+#bottom > img{
+    height: 100%;
+    width: 100%;
+}
+
 #list {
     font-size: 1.2em;
 }
